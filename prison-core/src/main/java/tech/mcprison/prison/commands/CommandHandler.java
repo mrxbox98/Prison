@@ -250,9 +250,13 @@ public class CommandHandler {
             		message.addAll( aliasesMessages );
             	}
             }
-            
 
-            return message.toArray(new String[0]);
+            String[] helpReturn = new String[1];
+            helpReturn[0]="Test help command";
+            return helpReturn;
+
+            
+            //return message.toArray(new String[0]);
         }
 
 		private ArrayList<String> buildHelpRootCommands() {
