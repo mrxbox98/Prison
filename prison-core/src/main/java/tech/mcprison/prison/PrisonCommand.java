@@ -92,8 +92,10 @@ public class PrisonCommand {
     	}
     	
     	ChatDisplay display = displayVersion(options);
-    	
-        display.send(sender);
+
+    	sender.sendMessage("&c&lPrisons forked by Xbox");
+
+        //display.send(sender);
         
 //        if ( options != null && "all".equalsIgnoreCase( options )) {
 //        	// Display all Ranks in each ladder:

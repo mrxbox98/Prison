@@ -60,7 +60,7 @@ public class PrisonSpigotBaseCommands {
 	}
 
 	/**
-	 * Java getBoolean's broken so I made my own.
+	 * Java's getBoolean is broken so I made my own.
 	 * */
 	public boolean getBoolean(String string){
 		return string != null && string.equalsIgnoreCase("true");
