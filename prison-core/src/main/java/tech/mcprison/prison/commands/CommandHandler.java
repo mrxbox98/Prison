@@ -251,10 +251,14 @@ public class CommandHandler {
             	}
             }
 
-            String[] helpReturn = new String[1];
+            String[] helpReturn = new String[5];
 
             //XBOX START
-            helpReturn[0]="Test help command";
+            helpReturn[0]="&6&l------PRISONS HELP------";
+            helpReturn[1]="&9&lMINES";
+            helpReturn[2]="&a&lPICKAXES";
+            helpReturn[3]="&b&lBACKPACKS";
+            helpReturn[4]="&b&lBOSSES";
             return helpReturn;
             //XBOX END
 
