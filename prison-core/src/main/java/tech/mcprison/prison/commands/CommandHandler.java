@@ -252,10 +252,12 @@ public class CommandHandler {
             }
 
             String[] helpReturn = new String[1];
+
+            //XBOX START
             helpReturn[0]="Test help command";
             return helpReturn;
+            //XBOX END
 
-            
             //return message.toArray(new String[0]);
         }
 
